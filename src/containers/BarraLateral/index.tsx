@@ -23,6 +23,8 @@ const BarraLateral = ({ mostrarFiltros }: Props) => {
         {mostrarFiltros ? (
           <>
             <Campo
+              id="campo-busca"
+              name="busca"
               type="text"
               placeholder="Procurar"
               value={termo}
